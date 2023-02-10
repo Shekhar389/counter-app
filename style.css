@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+.container{
+    background: lightgrey;
+    display: flex;
+    width: 200vh;
+    height: 100vh;
+    flex-direction: column;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+
+}
+.box
+{
+    background: darkseagreen;
+    display: flex;
+    flex-direction: row;
+    border: solid 2px red;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+.btn1{
+    width: 100px;
+    height: 100px;
+    background: darksalmon;
+
+}
+.btn2{
+    width: 100px;
+    height: 100px;
+    background: darksalmon;
+
+}
+
