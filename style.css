@@ -1,16 +1,20 @@
 body{
     margin: 0px;
 }
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
 .container{
     background: lightgrey;
     display: flex;
-    width: 200vh;
-    height: 100vh;
+    width: 600px;
+    height: 600px;
     flex-direction: column;
     border: solid 2px black;
     justify-content: center;
     align-items: center;
-
+    margin: 100px auto;
 }
 .box
 {
@@ -23,7 +27,7 @@ body{
     align-items: center;
     justify-content: space-around;
     justify-items: center;
-
+    margin-bottom: 100px;
 }
 .btn1{
     width: 100px;
